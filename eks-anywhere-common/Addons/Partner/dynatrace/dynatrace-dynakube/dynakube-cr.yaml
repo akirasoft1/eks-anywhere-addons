@@ -2,7 +2,7 @@
 apiVersion: dynatrace.com/v1beta2
 kind: DynaKube
 metadata:
-  name: "${dynakubename}"
+  name: "https://fjy55252.sprint.apps.dynatracelabs.com/api"
   namespace: dynatrace
   annotations:
     feature.dynatrace.com/k8s-app-enabled: "true"
