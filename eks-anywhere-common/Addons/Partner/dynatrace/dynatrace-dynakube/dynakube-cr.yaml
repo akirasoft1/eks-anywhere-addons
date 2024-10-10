@@ -2,12 +2,12 @@
 apiVersion: dynatrace.com/v1beta2
 kind: DynaKube
 metadata:
-  name: "https://fjy55252.sprint.apps.dynatracelabs.com/api"
+  name: "${dynakubename}"
   namespace: dynatrace
   annotations:
     feature.dynatrace.com/k8s-app-enabled: "true"
 spec:
-  apiUrl: "${apiurl-fail}"
+  apiUrl: "https://fjy55252.sprint.apps.dynatracelabs.com/api"
   tokens: ${dynatracesecretname}
   oneAgent:
     cloudNativeFullStack:
