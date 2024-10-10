@@ -7,7 +7,7 @@ metadata:
   annotations:
     feature.dynatrace.com/k8s-app-enabled: "true"
 spec:
-  apiUrl: https://fjy55252.sprint.apps.dynatracelabs.com/api
+  apiUrl: "${apiurl}"
   tokens: ${dynatracesecretname}
   oneAgent:
     cloudNativeFullStack:
