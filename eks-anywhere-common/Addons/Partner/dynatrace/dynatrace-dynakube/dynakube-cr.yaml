@@ -7,7 +7,7 @@ metadata:
   annotations:
     feature.dynatrace.com/k8s-app-enabled: "true"
 spec:
-  apiUrl: ${apiurl}
+  apiUrl: "${apiurl}"
   tokens: ${dynatracesecretname}
   oneAgent:
     cloudNativeFullStack:
